@@ -1,0 +1,6 @@
+FH = open("contact_list.txt",'r')
+all_text = FH.read()
+all_lines = all_text.strip().split('\n')
+print(all_lines)
+all_lines.sort()
+print(all_lines)
